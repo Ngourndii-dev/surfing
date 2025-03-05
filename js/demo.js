@@ -1,18 +1,5 @@
-/**
- * demo.js
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2018, Codrops
- * http://www.codrops.com
- */
 {
-    // Lighter to darker.
     const colors = ['#f6f6f6','#f0f0f0','#e3e3e3','#d7d7d7','#d0d0d0'];
-
-    // The page turning animations.
     class PageTurn {
         constructor(el, pagesTotal) {
             this.DOM = {el: el};
@@ -71,7 +58,7 @@
                 this.tl.resume();
             });
         }
-    }
+    } 
 
     // Window sizes.
     let winsize;

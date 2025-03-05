@@ -1,0 +1,82 @@
+@media screen and (max-width: 1024px) and (max-height: 1366px) {
+    body {
+        font-size: 0.8rem; 
+    }
+
+    .message {
+        display: block; 
+    }
+
+    .codrops-header {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .codrops-header__links {
+        display: block;
+        margin-top: 0.5rem;
+    }
+
+    .codrops-header__links a {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    .slide__figure {
+        width: 90%; 
+        margin: 1rem auto;
+        height: auto;
+    }
+
+    .slide__figure-img {
+        height: 200px;
+    }
+
+    .slide__figure-title {
+        font-size: 1rem;
+    }
+
+    .slide__figure-description {
+        font-size: 0.8rem;
+    }
+
+    .arrow-nav,
+    .nav,
+    .slide__number,
+    .slideshow__indicator,
+    .revealer {
+        display: none;
+    }
+
+    .slide {
+        position: relative;
+        display: block;
+        padding: 1rem;
+    }
+
+    .slide--layout-1 .slide__figure,
+    .slide--layout-2 .slide__figure,
+    .slide--layout-3 .slide__figure,
+    .slide--layout-4 .slide__figure,
+    .slide--layout-5 .slide__figure{
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .slide--layout-1 .slide__figure:nth-child(n+2),
+    .slide--layout-2 .slide__figure:nth-child(n+2),
+    .slide--layout-3 .slide__figure:nth-child(n+2),
+    .slide--layout-4 .slide__figure:nth-child(n+2),
+    .slide--layout-5 .slide__figure:nth-child(n+2)
+    {
+        margin-top:20px;
+    }
+
+    .slide--current {
+        pointer-events: auto;
+    }
+
+    .slide__figure-reveal {
+        display: none; 
+    }
+}
